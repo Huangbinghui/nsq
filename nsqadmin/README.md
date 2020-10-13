@@ -17,8 +17,8 @@ Read the [docs](https://nsq.io/components/nsqadmin.html)
 
  1. `$ npm install`
  2. `$ ./gulp --series clean watch` or `$ ./gulp --series clean build`
- 3. `$ go-bindata --debug --pkg=nsqadmin --prefix=static/build static/build/...`
+ 3. `$ go-bindata --debug --pkg=nsqadmin --prefix=static/build/ static/build/...`
  4. `$ go build ../apps/nsqadmin && ./nsqadmin`
  5. make changes (repeat step 4 only if you make changes to any Go code)
- 6. `$ go-bindata --pkg=nsqadmin --prefix=static/build static/build/...`
+ 6. `$ go-bindata --pkg=nsqadmin --prefix=static/build/ static/build/...`
  7. commit other changes and `bindata.go`
